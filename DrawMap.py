@@ -5,7 +5,7 @@ from shapely.geometry import Point
 import cartopy.crs as ccrs
 
 # 读取shp文件
-shapefile_path = 'map/world-administrative-boundaries.shp'  # 替换为你shp文件的路径
+shapefile_path = 'WorldMap/world-administrative-boundaries.shp'  # 替换为你shp文件的路径
 gdf = gpd.read_file(shapefile_path)
 
 # 读取Excel文件，假设Excel文件名为 'data.xlsx'
